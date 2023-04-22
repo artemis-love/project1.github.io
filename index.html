@@ -60,7 +60,30 @@
                 <input type="submit" value="submit"></form>
 To Sign Up
 <a name="Sign-up" href="https://month-3-p1-default-rtdb.asia-southeast1.firebasedatabase.app/">Click here</a> </h2>
-                
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDsr1glfr5UqZFXTQsr8o6gchv32Z7O6ws",
+    authDomain: "month-3-p1.firebaseapp.com",
+    databaseURL: "https://month-3-p1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "month-3-p1",
+    storageBucket: "month-3-p1.appspot.com",
+    messagingSenderId: "374738959447",
+    appId: "1:374738959447:web:0038267ac4afd115b1f712",
+    measurementId: "G-YLCEL9W2FS"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>         
 
                     
 
